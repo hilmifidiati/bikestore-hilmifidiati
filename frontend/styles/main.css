@@ -134,7 +134,8 @@
 /* Popular Product */
 .popular-products {
     padding-top: 50px;
-    padding-bottom: 34px;
+    padding-bottom: 36px;
+
     background: rgba(23, 25, 56, 0.06);
 }
 
@@ -146,40 +147,40 @@
     border: #000000;
     padding-bottom: 15px;
 
-    transition: all 0.2s ease-in-out;
+    transition: all 0,2s ease-in-out;
 }
 
-.component-products:hover {
+.component-products :hover {
     text-decoration: none;
-    transform: scale(1.1);
+    transform: scale(1,1);
 }
 
 .produts-img {
-    padding: 0.5rem;
-    border-radius: 8px 8px;
-    background: #F6FAFD;
+    padding: 0,5rem;
+    border-radius: 8px;
+    background: #f6f6f6;
 
-    transition: all 0.3s ease;
+    transition: all 0,3s ease;
 }
 
 .products-text {
-    font-family: 'Poppins';
+    font-family: Poppins;
     font-weight: 400;
     font-size: 20px;
     text-align: center;
 
-    color: #171938;
+    color: rgba(23, 25, 56, 1);
 }
 
 .products-price {
-    font-family: 'Poppins';
+
+    font-family: Poppins;
     font-weight: 600;
     font-size: 20px;
     text-align: center;
 
-    color: #e98015;
+    color: rgba(233, 128, 21, 1);
 }
-
 /* Tutup Popular Product */
 
 /* Testimonial */
